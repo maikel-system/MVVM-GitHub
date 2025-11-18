@@ -2,9 +2,9 @@ name: MVVM
 
 on:
   push:
-    branches: [ CI-CD-2]
+    branches: [ CI-CD ]
   pull_request:
-    branches: [ CI-CD-2]
+    branches: [ CI-CD ]
 
 jobs:
   build:

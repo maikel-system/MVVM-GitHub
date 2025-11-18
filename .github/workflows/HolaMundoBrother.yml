@@ -1,7 +1,7 @@
 name: Hola Mundo Brother
 on:
   push:
-    branches: [ CI-CD-2 ]
+    branches: [ CI-CD ]
 jobs:
   my-job:
     runs-on: ubuntu-latest
