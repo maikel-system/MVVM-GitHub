@@ -20,3 +20,9 @@ jobs:
       - name: Android Test Report
         uses: asadmansr/android-test-report-action@v1.2.0
         if: ${{ always() }}
+
+      - name: Upload XML
+        uses: actions/upload-artifact@v4
+        with:
+          name: xml
+          path: ./app/build/test-results/testDebugUnitTest/TEST-com.tutoriales.mvvm.ui.viewmodel.QuoteViewModelTest.xml
