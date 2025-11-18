@@ -1,4 +1,4 @@
-name: My demo WorkFlow
+name: Hola Mundo Brother
 on:
   push:
     branches: [ master ]
@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: demo-step
-        run: echo "Hello World Brother!"
+        run: echo "Hola Mundo Brother!"
