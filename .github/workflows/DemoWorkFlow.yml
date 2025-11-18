@@ -1,7 +1,7 @@
 name: My demo WorkFlow
 on:
   push:
-    branches: [ ci-cd ]
+    branches: [ "ci-cd" ]
 jobs:
   my-job:
     runs-on: ubuntu-latest
