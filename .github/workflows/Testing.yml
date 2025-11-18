@@ -25,4 +25,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: xml
-          path: ./app/build/test-results/testDebugUnitTest/TEST-com.tutoriales.mvvm.ui.viewmodel.QuoteViewModelTest.xml
+          path: ./app/build/test-results/testDebugUnitTest/*/*.xml
