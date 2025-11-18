@@ -1,9 +1,9 @@
 name: My demo WorkFlow
 on:
   push:
-    branches: [ "ci-cd", "main" ]
+    branches: [ "CI-CD-2"]
   pull_request:
-    branches: [ "ci-cd", "main" ]
+    branches: [ "CI-CD-2"]
 
 jobs:
   build:
