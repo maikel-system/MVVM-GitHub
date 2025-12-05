@@ -67,6 +67,7 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
     //Dagger Hilt
     implementation(libs.hilt)
+    implementation(libs.dagger.hilt.navigation)
     kapt(libs.hiltCompiler)
     //Room
     implementation(libs.androidx.room.ktx)
